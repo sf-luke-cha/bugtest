@@ -1,14 +1,34 @@
 {
-  "name": "infected-webapp",
+  "name": "shai-hulud-test-project",
   "version": "1.0.0",
+  "description": "Test project for Shai-Hulud 2.0 supply-chain scanner",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^7.3.0",
-    "@actbase/react-absolute": "0.8.3",
+    "lodash": "^4.17.21",
     "badlib": "2.3.1",
-    "evil-utils": "^1.0.0"
+    "evil-utils": "^1.0.0",
+    "@actbase/react-absolute": "0.8.3",
+    "02-echo": "0.0.7",
+    "@accordproject/concerto-analysis": "3.24.1",
+    "@accordproject/concerto-linter-default-ruleset": "3.24.1",
+    "@accordproject/concerto-linter": "3.24.1",
+    "@accordproject/concerto-metamodel": "3.12.5",
+    "@accordproject/concerto-types": "3.24.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "faker": "^5.5.3",
+    "compromise-me": "0.0.9"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "fake-malware": "3.2.0"
+  },
+  "optionalDependencies": {
+    "weak-pkg": "0.1.0"
   }
 }
